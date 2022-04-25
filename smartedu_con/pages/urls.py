@@ -4,7 +4,7 @@ from pages import views
 # artık pages altında bir klasörde olduğu için oages yerine . kullanılır
 
 urlpatterns = [
-    path('', views.index), 
+   path('', views.index), 
 
 ]
 # BU URL İŞLEMLERİ ANA URLS OLAN SMARTEDU/URLS.PY' DE TANITILMALIDIR.
